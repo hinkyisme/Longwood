@@ -1,0 +1,82 @@
+\contentsline {section}{Biology 395, Advanced Bioassessment \textbar {} Everything will be in R for your reference! I will have this presentation, as well as a PDF version you'll be able to take with you.}{2}{section*.2}%
+\contentsline {subsection}{Biology 395}{2}{section*.3}%
+\contentsline {subsection}{How will this class be formatted?}{3}{section*.4}%
+\contentsline {subsection}{How will this class be formatted? \textbar {} Continued}{3}{section*.5}%
+\contentsline {subsection}{Course Theory}{3}{section*.6}%
+\contentsline {section}{August 21 \textbar {} Preview of Course}{3}{section*.7}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course}{3}{section*.8}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course}{4}{section*.9}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course}{4}{section*.10}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course}{4}{section*.11}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course}{5}{section*.12}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course}{5}{section*.13}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course}{5}{section*.14}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course eDNA}{5}{section*.15}%
+\contentsline {subsection}{August 21 \textbar {} Preview of Course eDNA cont'd}{5}{section*.16}%
+\contentsline {section}{August 23 \textbar {} Phab - Physical habitat assessment}{6}{section*.17}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{6}{section*.18}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{6}{section*.19}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{6}{section*.20}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{6}{section*.21}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{7}{section*.22}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{7}{section*.23}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{7}{section*.24}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{7}{section*.25}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{7}{section*.26}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{8}{section*.27}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{8}{section*.28}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{8}{section*.29}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{8}{section*.30}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{9}{section*.31}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{9}{section*.32}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{9}{section*.33}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{9}{section*.34}%
+\contentsline {subsection}{August 23 \textbar {} Physical habitat assessment}{10}{section*.35}%
+\contentsline {section}{August 30 \textbar {} Introduction to R}{10}{section*.36}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{10}{section*.37}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{10}{section*.38}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{10}{section*.39}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{11}{section*.40}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{11}{section*.41}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{11}{section*.42}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{11}{section*.43}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{12}{section*.44}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{12}{section*.45}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{12}{section*.46}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{12}{section*.47}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{12}{section*.48}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{12}{section*.49}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{13}{section*.50}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{13}{section*.51}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{13}{section*.52}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{13}{section*.53}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{13}{section*.54}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{14}{section*.55}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{14}{section*.56}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{14}{section*.57}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{14}{section*.58}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{15}{section*.59}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{15}{section*.60}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{15}{section*.61}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{15}{section*.62}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{15}{section*.63}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{16}{section*.64}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{16}{section*.65}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{16}{section*.66}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{16}{section*.67}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{16}{section*.68}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{17}{section*.69}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{17}{section*.70}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{17}{section*.71}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{17}{section*.72}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{17}{section*.73}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{18}{section*.74}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{18}{section*.75}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{19}{section*.76}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{19}{section*.77}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{19}{section*.78}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{19}{section*.79}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{19}{section*.80}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{20}{section*.81}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{20}{section*.82}%
+\contentsline {subsection}{August 30 \textbar {} Introduction to R}{20}{section*.83}%

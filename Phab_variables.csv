@@ -1,0 +1,51 @@
+Variable,Physical_Hab_character
+StationID,VDEQ Station ID
+LongitudeDD,Site Longitude in decimal degree
+LatitudeDD,Site Latitude in decimal degree
+Basin,Major Basin in Virginia
+SubBasin,Subbasin in Virginia 
+BayShed,"""Bay"" or ""Non-Bay"" Watershed"
+EcoRegion,Level III Ecoregion
+Order,"relative size of the stream, used strahler order on 1:100000 NHD to select different sized streams"
+SSCCOARSE,Suspended Sediment Concentration >62 um particle size (mg/L) 
+SSCFINE,Suspended Sediment Concentration <62 um particle size (mg/L) 
+SSCTOTAL,SSC Course + SSC Fine Combined
+LRBS,Logged Relative Bed Stability
+Slope,Slope of the Reach
+FN_PCT,% Fines in Reach
+SA_PCT,% Sand in Reach
+SA_FN_PCT,%Fine + %Sand in Reach
+LSUB_DMM,Logged Mean Particle Size in Reach
+BL_CB_GR_Embed_PCT,"% Embeddedness of Bolders,Cobbles, and Gravels"
+Embed_PCT,% Embeddedness All Particles
+TotHab,Total Habitat Score (RBP) 
+VSCIVCPMI,"Virginia Stream Condition Index (Non-Tidal Biological Assessment Tool), Virginia Coastal Plain Macroinvertebrate Index (Tidal Biological Assessment Tool)"
+N_INDEX,Percentage of watershed that is natural land cover
+PFOR,Percentage of watershed that is forested land cover
+PWETL,Percentage of watershed that is wetland land cover
+PSHRB,Percentage of watershed that is shrubland land cover
+PNG,Percentage of watershed that is natural grasses land cover
+PBAR,Percentage of watershed that is barren land cover
+PTotBAR,Percentage of watershed that is total barren land cover (manmade and natural)
+U_INDEX,"Urban Index, percentage of watershed that is all human land use"
+PURB,Percentage of watershed that is urban land cover
+PMBAR,Percentage of watershed that is manmade barren land cover
+PAGT,Percentage of watershed that is total agricultural use land cover
+PAGP,Percentage of watershed that is pasture agricultural use land cover
+PAGC,Percentage of watershed that is crop agricultural use land cover
+RNAT1,Percentage of adjacent riparian area that is natural land cover (1 m buffer)
+RFOR1,Percentage of adjacent riparian area that is forested land cover (1 m buffer)
+RWETL1,Percentage of adjacent riparian area that is wetland land cover (1 m buffer)
+RSHRB1,Percentage of adjacent riparian area that is shrubland land cover (1 m buffer)
+RNG1,Percentage of adjacent riparian area that is natural grasses land cover (1 m buffer)
+RBAR1,Percentage of adjacent riparian area that is barren land cover (1 m buffer)
+RTotBAR1,Percentage of adjacent riparian area that is total barren land cover (1 m buffer)
+RHUM1,Percentage of adjacent riparian area that is human land cover (1 m buffer)
+RURB1,Percentage of adjacent riparian area that is urban land cover (1 m buffer)
+RMBAR1,Percentage of adjacent riparian area that is manmade barren land cover (1 m buffer)
+RAGT1,Percentage of adjacent riparian area that is total agricultural use land cover (1 m buffer)
+RAGP1,Percentage of adjacent riparian area that is natural land cover (1 m buffer)
+RAGC1,Percentage of adjacent riparian area that is pasture agricultural land cover (1 m buffer)
+SLPMIN,Minimum slope in watershed in meters
+SLPMAX,Maximum slope in watershed in meters
+SLPMEAN,Mean slope in watershed in meters

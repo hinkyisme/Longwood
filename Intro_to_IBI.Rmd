@@ -1,0 +1,125 @@
+---
+title: "Intro_to_IBIs"
+author: "Jameson Hinkle"
+date: "2023-06-12"
+output:ioslides_presentation
+---
+
+# Sept 27 | Introduction to Indices of Biological Integrity (IBI's)
+
+## Sept 27 | Intro to IBI's
+
+As we talked about in the introduction to the course, Indices of Biological Integrity are really the centerpiece to our ability to assess both habitat and water quality at a given site, and are necessary to assess a stream int he context of the clean water act.
+
+## Sept 27 | Intro to IBI's
+
+To explain this further, we'll go through the history and basics of a couple "canonical" IBI's.
+
+- [Shannon Diversity Index](https://www.youtube.com/watch?v=lbnXPI05qNI)
+- [Simpson Diversity Index](https://entnemdept.ufl.edu/hodges/protectus/lp_webfolder/9_12_grade/student_handout_1a.pdf)
+
+## Sept 27 | Intro to IBI's
+
+The necessity of IBI's really begins with a question of diversity and evenness that was noted in principle the first time by one of Darwin's contemporaries, Alfred Russel Wallace.  He noted for the first time that the diversity in the tropics was so astounding that it was difficult to account for what that diversity means.  
+
+## Sept 27 | Intro to IBI's
+
+Evenness is really where we reach the problem of relative diversity or species richness.  Evenness describes the proportion of species present relative to all other species.  This implies that a given area with high evenness could or could not be "good" for diversity in a given area.  You can imagine a place like a desert where there is low evenness and low diversity where that's actual endemically normal.  You can also imagine a scenario like a rain forest that has varying evenness and high diversity and this is also endemically normal.  
+
+## Sept 27 | Intro to IBI's {.smaller}
+
+- Shannon Diversity
+
+This problem above is attempted to be accounted for by the Shannon Diversity index.  The question of abundance and evenness is attempted to be reconciled via normalizing by the proportional species richness.  That is, the number of a given species present divided by the total species present.  It can be articulated as:
+
+
+H <- -sum(p * ln(p))
+
+p = proportion of number of individuals of a species present
+
+
+
+## Sept 27 | Intro to IBI's
+
+This concept was originally used for any uncertainty, so as you can imagine this diversity index is not limited to just ecological concepts. It can be used in the following scenarios but is not limited to those scenarios:
+
+- Information Theory
+- Ecological Diversity
+- Population Genetic Diversity
+
+## Sept 27 | Intro to IBI's
+
+This is really where the "rubber meets the road" in terms of describing population dynamics that are important to climate change scenarios.  We can initially describe potential diversity abnormalities at the level of the ecology (e.g., biomonitoring) and hypothesize that there would be no effect on population genetic diversity.  
+
+## Sept 27 | Intro to IBI's
+
+- Shannon Diversity
+
+If you watch the YouTube link above, you'll see that Shannon diversity really attempts to measure proportional species richness.  That is, percentages of a given species present out of all species in a given area.  A measure of straight percentages of species present doesn't always represent the true diversity present.
+
+## Sept 27 | Intro to IBI's
+
+Now that we've talked about these basics, can you think of some scenarios that may arise that are an issue related to evenness and abundance that can bias your sample in return?  We will discuss this in class.
+
+## Sept 27 | Intro to IBI's
+
+To study further the issues to the question above, we can look at sample plots of the effect of sampling using the vegan package with the BCI dataset.
+
+```{r, echo = TRUE}
+#install dependency
+install.packages("vegan")
+require(vegan)
+data(BCI)
+# BCI is a sample dataset containing sampling data from a plant dataset that is embedded in the vegan package
+```
+
+## Sept 27 | Intro to IBI's
+
+[This page nicely describes the BCI dataset](https://rdrr.io/cran/vegan/man/BCI.html)
+
+## Sept 27 | Intro to IBI's
+
+There is a function called specaccum in the vegan package that will display accumulation of species present over number of permutations of sites.  Can you plot this, what does this tell you about sampling methods that's important to diversity measures? (Hint: [see this website for a guide](https://search.r-project.org/CRAN/refmans/vegan/html/specaccum.html))
+
+## Sept 27 | Intro to IBI's {.smaller}
+
+Keep the previous idea of sampling bias in mind.  Let's review the Simpson index:
+
+D <- 1/sum(p)^2
+
+- Dominance index
+- Not proportional
+- Raw species will not effect diversity.
+
+## Sept 27 | Intro to IBI's {.smaller}
+
+Let's talk about a few questions before getting into the R exercise:
+
+- The Shannon index is an information statistic index, which means it assumes all
+species are represented in a sample and that they are randomly sampled. Can you point
+out any problems in these assumptions? 
+
+- The Simpson index is a dominance index because it gives more weight to
+common or dominant species. In this case, a few rare species with only a few
+representatives will not affect the diversity. Can you point out any problems in these
+assumptions?
+
+## Sept 27 | Intro to IBI's {.smaller}
+
+Ok, so now that we have the data, let's actually organize it, take a look at it, and see if we can learn anything about the diversity of species with these simple IBI's.
+
+```{r, echo = TRUE}
+data(BCI.env)
+#contains all environmental variables that correspond to the BCI dataset.
+
+simpson <- diversity(BCI, "simpson")
+#get Simpson diversity index measures of trees in BCI dataset.
+
+trees <- bind_cols(BCI.env, simpson)
+#combine environmental variables with plant/tree data.
+```
+
+
+## Sept 27 | Intro to IBI's {.smaller}
+
+Now that we have the data organized, in class, we'll discuss the questions I posed above, as well as, we'll try to see if we can learn anything from these IBI measures!
